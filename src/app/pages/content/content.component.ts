@@ -8,9 +8,9 @@ import {dataFake} from '../../data/dataFake'
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-  photoCover:string = ""
-  contentTitle:string = ""
-  contentDescription:string = ""
+  photoCover:string = "https://f.i.uol.com.br/fotografia/2013/06/23/292621-970x600-1.jpeg"
+  contentTitle:string = "The last of us part II"
+  contentDescription:string = "The last of us part II..."
   private id:string | null = "0"
 
   constructor(
